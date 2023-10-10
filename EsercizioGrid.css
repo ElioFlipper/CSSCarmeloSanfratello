@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {font-family:Arial, Helvetica, sans-serif}
+
+section {
+    width: 150px;
+    height: 20px;
+    background-color: rgb(55, 84, 57);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    text-align: center;
+    color: white;
+}
+
+div {
+    border:0.5px rgb(55, 84, 57) solid;
+    color: black;
+    padding: 4px;
+    }
+    .piu {background-color: rgba(0, 60, 255, 0.185);}
+    .meno {background-color: rgba(0, 60, 255, 0.185);}
+    .per {background-color: rgba(0, 60, 255, 0.185);}
+    .diviso {background-color: rgba(0, 60, 255, 0.185);}
+
+
+header {
+    grid-column: span 4;
+    text-align: right;
+}
+
+.uguale {
+    grid-row: span 3;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgba(255, 0, 0, 0.258);
+}
