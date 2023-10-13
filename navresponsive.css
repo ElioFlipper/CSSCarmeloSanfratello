@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+nav {
+    background-color: rgb(54, 55, 58);
+    width: 100vw;
+    height: 2em;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.insidenavbar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(54, 55, 58);
+    color: rgb(164, 157, 157);
+    width: 100vw;
+    height: 2em;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.NavBar {
+    color: white;
+    padding: 1rem;
+}
+
+a:first-of-type {
+    color: white;
+    text-decoration: none;
+}
+
+a:nth-child(3) {
+    color: rgb(164, 157, 157);
+    text-decoration: none;
+    padding-left: 1rem;
+}
+
+select {
+    background-color: rgb(54, 55, 58);
+    border: none;
+    color: rgb(164, 157, 157);
+    margin-left: 10px;
+}
+
+.Ricerca {
+    justify-content: right;
+    margin-right: 1rem;
+}
+
+input {
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(54, 55, 58);
+    color: green;
+    border-color: green;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+.Ricerca {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.ham {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 8px 0;
+    display: none;
+}
+img {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .insidenavbar {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+        height: 2em;
+        width: 100vw;
+        flex-direction: column;
+    }
+    .ham {
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        height: calc(2em / 3);
+        margin: 3px;
+        align-self: flex-end;
+        border-radius: 3px;
+        margin-right: 1rem; }
+        img {
+            display: flex;
+            width: 25px;
+            margin-left: 1rem;
+        }
+}   
