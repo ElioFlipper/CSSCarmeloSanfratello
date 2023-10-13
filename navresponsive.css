@@ -11,6 +11,7 @@ nav {
     border-radius: 3px;
     display: flex;
     align-items: center;
+
 }
 
 .insidenavbar {
@@ -24,7 +25,7 @@ nav {
     align-items: center;
 }
 
-.NavBar {
+.navbar {
     color: white;
     padding: 1rem;
 }
@@ -47,9 +48,11 @@ select {
     margin-left: 10px;
 }
 
-.Ricerca {
-    justify-content: right;
+.ricerca {
     margin-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 input {
@@ -67,20 +70,12 @@ button:hover {
     color: white;
 }
 
-.Ricerca {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
 
 .ham {
     width: 30px;
     height: 5px;
     background-color: white;
     margin: 8px 0;
-    display: none;
-}
-img {
     display: none;
 }
 
@@ -102,9 +97,4 @@ img {
         align-self: flex-end;
         border-radius: 3px;
         margin-right: 1rem; }
-        img {
-            display: flex;
-            width: 25px;
-            margin-left: 1rem;
-        }
-}   
+} 
